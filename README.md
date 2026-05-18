@@ -1,2 +1,4 @@
-# web-project
-A modern futuristic portfolio website built using HTML5, CSS3, and JavaScript. Features a neon-themed UI, responsive design, smooth animations, interactive project cards, timeline experience section, and fully optimized frontend architecture. Designed to showcase frontend development skills with a clean and professional user experience.
+NeuroVerse – The Future of AI Civilization
+
+NeuroVerse is a futuristic single-page website built using only HTML5 and CSS3.
+The project features cyberpunk-inspired UI, neon glow effects, glassmorphism, advanced animations, 3D hover effects, and immersive sci-fi visuals.
