@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Horizon | Luxury Hotel Management System</title>
+    <meta name="description" content="Grand Horizon Hotel Management System. A 5-star international hotel experience.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 2. Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fas fa-crown"></i></span>
+                <span class="logo-text">Grand Horizon</span>
+            </a>
+            
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="luxury-badge">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h1 class="hero-title">Experience Unparalleled Luxury</h1>
+            <p class="hero-slogan">Where Elegance Meets Exceptional Service</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+                <a href="#rooms" class="btn btn-outline">Explore Rooms</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+        <div class="floating-elements">
+            <div class="float-el el-1"></div>
+            <div class="float-el el-2"></div>
+            <div class="float-el el-3"></div>
+        </div>
+    </section>
+
+    <!-- 3. About Hotel Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Legacy of Elegance</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-subtitle">A Vision of Perfection</h3>
+                    <p>Founded in 1998, Grand Horizon has redefined luxury hospitality. Our mission is to provide an oasis of tranquility and supreme comfort for the world's most discerning travelers.</p>
+                    <p>Every detail, from the architecture to our bespoke services, is meticulously crafted to ensure your stay is nothing short of extraordinary. Welcome to your new standard of living.</p>
+                    
+                    <div class="history-timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-year">1998</span>
+                            <span class="timeline-event">Grand Opening</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-year">2005</span>
+                            <span class="timeline-event">International Expansion</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-year">2015</span>
+                            <span class="timeline-event">Awarded 5-Star Status</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-year">2023</span>
+                            <span class="timeline-event">Global Hospitality Award</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-door-open stat-icon"></i>
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Rooms</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-gem stat-icon"></i>
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Luxury Suites</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-calendar-alt stat-icon"></i>
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users stat-icon"></i>
+                        <span class="stat-number">1M+</span>
+                        <span class="stat-label">Guests Served</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Luxury Rooms Section -->
+    <section id="rooms" class="rooms-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Luxurious Accommodations</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Experience comfort designed for royalty</p>
+            </div>
+            
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <div class="room-image" style="background-image: url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1000&auto=format&fit=crop');">
+                        <div class="room-price">$350 <span>/ night</span></div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3 class="room-title">Deluxe Room</h3>
+                        <ul class="room-features">
+                            <li><i class="fas fa-bed"></i> King Size Bed</li>
+                            <li><i class="fas fa-wifi"></i> Free High-Speed WiFi</li>
+                            <li><i class="fas fa-tv"></i> 55" OLED TV</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-full">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <div class="room-image" style="background-image: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1000&auto=format&fit=crop');">
+                        <div class="room-price">$500 <span>/ night</span></div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="room-title">Executive Room</h3>
+                        <ul class="room-features">
+                            <li><i class="fas fa-bed"></i> Premium King Bed</li>
+                            <li><i class="fas fa-city"></i> City View</li>
+                            <li><i class="fas fa-coffee"></i> Espresso Machine</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-full">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="room-image" style="background-image: url('https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1000&auto=format&fit=crop');">
+                        <div class="room-price">$650 <span>/ night</span></div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="room-title">Family Suite</h3>
+                        <ul class="room-features">
+                            <li><i class="fas fa-bed"></i> 2 Queen Beds</li>
+                            <li><i class="fas fa-couch"></i> Spacious Living Area</li>
+                            <li><i class="fas fa-gamepad"></i> Entertainment System</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-full">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="room-image" style="background-image: url('https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1000&auto=format&fit=crop');">
+                        <div class="room-price">$850 <span>/ night</span></div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="room-title">Honeymoon Suite</h3>
+                        <ul class="room-features">
+                            <li><i class="fas fa-bed"></i> Round King Bed</li>
+                            <li><i class="fas fa-hot-tub"></i> Private Jacuzzi</li>
+                            <li><i class="fas fa-wine-glass"></i> Complimentary Champagne</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-full">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="room-image" style="background-image: url('https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1000&auto=format&fit=crop');">
+                        <div class="room-price">$1,200 <span>/ night</span></div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="room-title">Presidential Suite</h3>
+                        <ul class="room-features">
+                            <li><i class="fas fa-door-open"></i> Multiple Rooms</li>
+                            <li><i class="fas fa-utensils"></i> Private Dining Area</li>
+                            <li><i class="fas fa-concierge-bell"></i> 24/7 Butler Service</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-full">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="room-image" style="background-image: url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1000&auto=format&fit=crop');">
+                        <div class="room-price">$2,500 <span>/ night</span></div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="room-title">Royal Penthouse</h3>
+                        <ul class="room-features">
+                            <li><i class="fas fa-swimmer"></i> Private Infinity Pool</li>
+                            <li><i class="fas fa-helicopter"></i> Helipad Access</li>
+                            <li><i class="fas fa-binoculars"></i> Panoramic Views</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-full">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Hotel Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">World-Class Amenities</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Tailored to your every desire</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-utensils service-icon"></i>
+                    <h3 class="service-title">Gourmet Restaurant</h3>
+                    <p>Experience Michelin-star dining with our world-renowned chefs.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-spa service-icon"></i>
+                    <h3 class="service-title">Spa & Wellness</h3>
+                    <p>Rejuvenate your body and mind in our award-winning serene spa.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-swimmer service-icon"></i>
+                    <h3 class="service-title">Infinity Pool</h3>
+                    <p>Relax in our temperature-controlled rooftop infinity pool.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-dumbbell service-icon"></i>
+                    <h3 class="service-title">Fitness Center</h3>
+                    <p>State-of-the-art gym equipment with personal trainers available.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-glass-cheers service-icon"></i>
+                    <h3 class="service-title">Conference Hall</h3>
+                    <p>Elegant spaces equipped for successful corporate events.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-car service-icon"></i>
+                    <h3 class="service-title">Airport Pickup</h3>
+                    <p>Complimentary luxury chauffeur service for VIP guests.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tshirt service-icon"></i>
+                    <h3 class="service-title">Laundry Service</h3>
+                    <p>Same-day premium dry cleaning and laundry services.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-concierge-bell service-icon"></i>
+                    <h3 class="service-title">Room Service</h3>
+                    <p>24/7 personalized room service catering to all cravings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Interactive Booking Dashboard -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Reserve Your Stay</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="booking-dashboard glass-panel">
+                <form class="booking-form">
+                    <div class="input-group">
+                        <label for="check-in">Check-in Date</label>
+                        <input type="date" id="check-in" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="check-out">Check-out Date</label>
+                        <input type="date" id="check-out" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="guests">Guests</label>
+                        <select id="guests">
+                            <option value="1">1 Guest</option>
+                            <option value="2" selected>2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5+">5+ Guests</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="room-type">Room Type</label>
+                        <select id="room-type">
+                            <option value="deluxe">Deluxe Room</option>
+                            <option value="executive">Executive Room</option>
+                            <option value="family">Family Suite</option>
+                            <option value="honeymoon">Honeymoon Suite</option>
+                            <option value="presidential">Presidential Suite</option>
+                            <option value="royal">Royal Penthouse</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-book">Check Availability</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Hotel Analytics Dashboard -->
+    <section id="analytics" class="analytics-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Property Performance</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">A glimpse into our success</p>
+            </div>
+            
+            <div class="analytics-grid">
+                <!-- Pure CSS Progress Rings -->
+                <div class="chart-card glass-panel">
+                    <h3>Occupancy Rate</h3>
+                    <div class="progress-ring ring-88">
+                        <div class="ring-inner">
+                            <span>88%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chart-card glass-panel">
+                    <h3>Customer Satisfaction</h3>
+                    <div class="progress-ring ring-97">
+                        <div class="ring-inner">
+                            <span>97%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CSS Progress Bars -->
+                <div class="chart-card glass-panel stats-bars">
+                    <h3>Revenue Growth</h3>
+                    <div class="bar-group">
+                        <label>Q1</label>
+                        <div class="bar-track"><div class="bar-fill" style="width: 65%;"></div></div>
+                        <span>$1.2M</span>
+                    </div>
+                    <div class="bar-group">
+                        <label>Q2</label>
+                        <div class="bar-track"><div class="bar-fill" style="width: 80%;"></div></div>
+                        <span>$1.8M</span>
+                    </div>
+                    <div class="bar-group">
+                        <label>Q3</label>
+                        <div class="bar-track"><div class="bar-fill" style="width: 95%;"></div></div>
+                        <span>$2.4M</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Customer Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Guest Testimonials</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="reviews-track">
+                <div class="review-card">
+                    <div class="reviewer-img" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop');"></div>
+                    <h4 class="reviewer-name">Sophia L.</h4>
+                    <span class="reviewer-country">United Kingdom</span>
+                    <div class="room-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"Absolutely breathtaking. The Royal Penthouse exceeded all expectations. Service is impeccable."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-img" style="background-image: url('https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200&auto=format&fit=crop');"></div>
+                    <h4 class="reviewer-name">James M.</h4>
+                    <span class="reviewer-country">United States</span>
+                    <div class="room-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"The finest dining experience of my life. Grand Horizon truly understands luxury hospitality."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-img" style="background-image: url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop');"></div>
+                    <h4 class="reviewer-name">Elena V.</h4>
+                    <span class="reviewer-country">France</span>
+                    <div class="room-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"An oasis in the city. The spa treatments were divine. I will certainly be returning next year."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-img" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop');"></div>
+                    <h4 class="reviewer-name">Arthur C.</h4>
+                    <span class="reviewer-country">Canada</span>
+                    <div class="room-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                    <p class="review-text">"The conference facilities are top-notch. Our corporate retreat was a massive success."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-img" style="background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop');"></div>
+                    <h4 class="reviewer-name">Mei L.</h4>
+                    <span class="reviewer-country">Singapore</span>
+                    <div class="room-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"From the moment we arrived, the staff made us feel like royalty. Unforgettable honeymoon."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-img" style="background-image: url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop');"></div>
+                    <h4 class="reviewer-name">Carlos R.</h4>
+                    <span class="reviewer-country">Spain</span>
+                    <div class="room-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"The infinity pool at sunset is mesmerizing. The cocktails were simply perfect."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-img" style="background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop');"></div>
+                    <h4 class="reviewer-name">Aisha K.</h4>
+                    <span class="reviewer-country">UAE</span>
+                    <div class="room-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"Ultimate luxury and privacy. The VIP helicopter transfer was seamless and breathtaking."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-img" style="background-image: url('https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=200&auto=format&fit=crop');"></div>
+                    <h4 class="reviewer-name">David W.</h4>
+                    <span class="reviewer-country">Australia</span>
+                    <div class="room-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                    <p class="review-text">"A masterclass in modern hospitality. Every detail is curated for maximum comfort."</p>
+                </div>
+            </div>
+            
+            <div class="scroll-hint">
+                <i class="fas fa-arrows-alt-h"></i> Swipe to read more
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Hotel Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Visual Journey</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item item-1">
+                    <div class="gallery-overlay"><span>Grand Lobby</span></div>
+                </div>
+                <div class="gallery-item item-2">
+                    <div class="gallery-overlay"><span>Royal Suite</span></div>
+                </div>
+                <div class="gallery-item item-3">
+                    <div class="gallery-overlay"><span>Fine Dining</span></div>
+                </div>
+                <div class="gallery-item item-4">
+                    <div class="gallery-overlay"><span>Infinity Pool</span></div>
+                </div>
+                <div class="gallery-item item-5">
+                    <div class="gallery-overlay"><span>Luxury Spa</span></div>
+                </div>
+                <div class="gallery-item item-6">
+                    <div class="gallery-overlay"><span>Exterior View</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Pricing Packages -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Exclusive Memberships</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="price-card glass-panel">
+                    <h3 class="plan-name">Standard Stay</h3>
+                    <div class="plan-price">$350<span>/night</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Deluxe Room Access</li>
+                        <li><i class="fas fa-check"></i> Free Breakfast</li>
+                        <li><i class="fas fa-check"></i> Basic Gym Access</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Spa Access</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Private Butler</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-outline btn-full">Select Plan</a>
+                </div>
+                
+                <div class="price-card glass-panel popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3 class="plan-name">Premium Stay</h3>
+                    <div class="plan-price">$650<span>/night</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Executive Suite Access</li>
+                        <li><i class="fas fa-check"></i> All Meals Included</li>
+                        <li><i class="fas fa-check"></i> Full Gym & Spa Access</li>
+                        <li><i class="fas fa-check"></i> Priority Check-in</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Private Butler</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-primary btn-full">Select Plan</a>
+                </div>
+                
+                <div class="price-card glass-panel">
+                    <h3 class="plan-name">VIP Experience</h3>
+                    <div class="plan-price">$1,500<span>/night</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Presidential Suite</li>
+                        <li><i class="fas fa-check"></i> Private Chef</li>
+                        <li><i class="fas fa-check"></i> Unlimited Spa Treatments</li>
+                        <li><i class="fas fa-check"></i> VIP Helicopter Transfer</li>
+                        <li><i class="fas fa-check"></i> 24/7 Private Butler</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-outline btn-full">Select Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Staff Section -->
+    <section id="staff" class="staff-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Executive Team</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="staff-grid">
+                <div class="staff-card">
+                    <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400&auto=format&fit=crop');"></div>
+                    <div class="staff-info glass-panel">
+                        <h4 class="staff-name">Robert King</h4>
+                        <span class="staff-role">General Manager</span>
+                        <div class="staff-socials">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="staff-card">
+                    <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=400&auto=format&fit=crop');"></div>
+                    <div class="staff-info glass-panel">
+                        <h4 class="staff-name">Isabella Chen</h4>
+                        <span class="staff-role">Head Chef</span>
+                        <div class="staff-socials">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop');"></div>
+                    <div class="staff-info glass-panel">
+                        <h4 class="staff-name">Sarah Jenkins</h4>
+                        <span class="staff-role">Spa Director</span>
+                        <div class="staff-socials">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="staff-card">
+                    <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format&fit=crop');"></div>
+                    <div class="staff-info glass-panel">
+                        <h4 class="staff-name">Michael Chang</h4>
+                        <span class="staff-role">Customer Relations</span>
+                        <div class="staff-socials">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="staff-card">
+                    <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1598550874175-4d0ef436c909?q=80&w=400&auto=format&fit=crop');"></div>
+                    <div class="staff-info glass-panel">
+                        <h4 class="staff-name">Elena Rostova</h4>
+                        <span class="staff-role">Event Coordinator</span>
+                        <div class="staff-socials">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="staff-card">
+                    <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop');"></div>
+                    <div class="staff-info glass-panel">
+                        <h4 class="staff-name">David Silva</h4>
+                        <span class="staff-role">Security Chief</span>
+                        <div class="staff-socials">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Awards Section -->
+    <section id="awards" class="awards-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Awards & Accolades</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="awards-grid">
+                <div class="award-item">
+                    <i class="fas fa-trophy award-icon"></i>
+                    <h4 class="award-title">Best Luxury Hotel</h4>
+                    <p class="award-year">2023</p>
+                </div>
+                <div class="award-item">
+                    <i class="fas fa-medal award-icon"></i>
+                    <h4 class="award-title">Global Hospitality Award</h4>
+                    <p class="award-year">2022</p>
+                </div>
+                <div class="award-item">
+                    <i class="fas fa-award award-icon"></i>
+                    <h4 class="award-title">Guest Choice Award</h4>
+                    <p class="award-year">2021</p>
+                </div>
+                <div class="award-item">
+                    <i class="fas fa-star award-icon"></i>
+                    <h4 class="award-title">5-Star Excellence</h4>
+                    <p class="award-year">2015-2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <input type="checkbox" id="faq1">
+                    <label class="faq-question" for="faq1">What time is check-in and check-out? <i class="fas fa-plus"></i></label>
+                    <div class="faq-answer">
+                        <p>Check-in is at 3:00 PM, and check-out is at 11:00 AM. Early check-in and late check-out can be arranged upon request, subject to availability.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq2">
+                    <label class="faq-question" for="faq2">Is parking available at the hotel? <i class="fas fa-plus"></i></label>
+                    <div class="faq-answer">
+                        <p>Yes, we offer complimentary secure underground valet parking for all our registered guests.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq3">
+                    <label class="faq-question" for="faq3">Are pets allowed? <i class="fas fa-plus"></i></label>
+                    <div class="faq-answer">
+                        <p>We welcome small pets under 15 lbs. A non-refundable pet fee of $150 per stay applies. Please notify us in advance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq4">
+                    <label class="faq-question" for="faq4">Do you offer airport transportation? <i class="fas fa-plus"></i></label>
+                    <div class="faq-answer">
+                        <p>Yes, complimentary luxury airport pickup is provided for VIP members and guests staying in our Presidential and Royal suites. Other guests can arrange transfers for an additional fee.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper glass-panel">
+                <div class="contact-info">
+                    <h2 class="contact-title">Get in Touch</h2>
+                    <p>We are here to assist you with any inquiries or reservations.</p>
+                    
+                    <ul class="contact-details">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Luxury Ave, Monaco City, Monaco</li>
+                        <li><i class="fas fa-phone"></i> +1 (800) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> reservations@grandhorizon.com</li>
+                    </ul>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="input-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 14. Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo logo">
+                        <span class="logo-icon"><i class="fas fa-crown"></i></span>
+                        <span class="logo-text">Grand Horizon</span>
+                    </div>
+                    <p class="footer-desc">Redefining luxury hospitality with impeccable service, stunning architecture, and unforgettable experiences.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#rooms">Rooms & Suites</a></li>
+                        <li><a href="#services">Amenities</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#contact">Contact Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p class="footer-desc">Subscribe to receive exclusive offers and latest news.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Grand Horizon Hotel Management System. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
